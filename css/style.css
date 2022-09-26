@@ -580,7 +580,14 @@ button {
 
 .gallery .gallery_img {
      overflow: hidden;
-     margin-bottom: 30px;
+     margin-bottom: 12px;
+}
+
+.gallery .gallery_desc {
+     display: flex;
+     justify-content: center;
+     margin-bottom: 18px;
+     text-transform: capitalize;
 }
 
 .gallery .gallery_img figure {
